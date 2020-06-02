@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import cache from './ApiComponents/ScriptCache';
 import GoogleApi from './ApiComponents/GoogleApi';
@@ -7,7 +8,7 @@ import Map from './Map';
 
 
 
-class GoogleMapDrawFilter extends React.Component {
+class GoogleMapDrawFilter extends Component {
 
 
 	render () {
@@ -36,17 +37,17 @@ class GoogleMapDrawFilter extends React.Component {
 
 
 GoogleMapDrawFilter.propTypes={
-	apiKey:React.PropTypes.string.isRequired,
-	drawMode:React.PropTypes.bool,
-	heatMap:React.PropTypes.bool,
-	markers:React.PropTypes.array,
-	mapConfig:React.PropTypes.object,
-	polygonOptions:React.PropTypes.object,
-	google:React.PropTypes.object, //is provided by wrapper
-	mapStyle:React.PropTypes.object,
-	handleReturnedMarkers:React.PropTypes.func,
-	onMarkerClick:React.PropTypes.func,
-	insertMarker:React.PropTypes.bool
+	apiKey:PropTypes.string.isRequired,
+	drawMode:PropTypes.bool,
+	heatMap:PropTypes.bool,
+	markers:PropTypes.array,
+	mapConfig:PropTypes.object,
+	polygonOptions:PropTypes.object,
+	google:PropTypes.object, //is provided by wrapper
+	mapStyle:PropTypes.object,
+	handleReturnedMarkers:PropTypes.func,
+	onMarkerClick:PropTypes.func,
+	insertMarker:PropTypes.bool
 };
 
 GoogleMapDrawFilter.defaultProps={

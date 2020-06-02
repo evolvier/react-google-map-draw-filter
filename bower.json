@@ -1,11 +1,11 @@
 {
-  "name": "react-google-map-draw-filter",
+  "name": "@evolvier/react-google-map-draw-filter",
   "version": "0.0.0",
   "description": "GoogleMapDrawFilter",
   "main": "dist/react-google-map-draw-filter.min.js",
-  "homepage": "https://github.com/miguelgimenezgimenez/react-google-map-draw-filter",
+  "homepage": "https://github.com/evolvier/react-google-map-draw-filter",
   "authors": [
-    "Miguel Gimenez"
+    "Evolvier"
   ],
   "moduleType": [
     "amd",

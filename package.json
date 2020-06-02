@@ -1,20 +1,21 @@
 {
-  "name": "react-google-map-draw-filter",
+  "name": "@evolvier/react-google-map-draw-filter",
   "version": "1.1.8",
   "description": "GoogleMapDrawFilter",
-  "main": "lib/GoogleMapDrawFilter.js",
-  "author": "Miguel Gimenez",
-  "homepage": "https://github.com/miguelgimenezgimenez/react-google-map-draw-filter",
+  "main": "src/GoogleMapDrawFilter.js",
+  "author": "Evolvier",
+  "homepage": "https://github.com/evolvier/react-google-map-draw-filter",
   "repository": {
     "type": "git",
-    "url": "https://github.com/miguelgimenezgimenez/react-google-map-draw-filter.git"
+    "url": "https://github.com/evolvier/react-google-map-draw-filter.git"
   },
   "bugs": {
-    "url": "https://github.com/miguelgimenezgimenez/react-google-map-draw-filter/issues"
+    "url": "https://github.com/evolvier/react-google-map-draw-filter/issues"
   },
   "dependencies": {
     "classnames": "^2.1.2",
-    "point-in-polygon": "^1.0.1"
+    "point-in-polygon": "^1.0.1",
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "babel": "^6.5.2",
@@ -34,7 +35,6 @@
     "react-dom": "^15.4.2",
     "sinon": "^1.17.7"
   },
-
   "browserify-shim": {
     "react": "global:React"
   },
